@@ -76,8 +76,7 @@ def run_clock():
             if total_sec == 0:
                 print("het gio")
                 pygame.mixer.music.play(-1)
-                # start = False
-            time.sleep(0.05)
+            time.sleep(1)
         if total_sec < 0:
             start = False
             total_sec = 0
